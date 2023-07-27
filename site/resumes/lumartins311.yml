@@ -13,21 +13,23 @@ basic_info:
     last_name: Martins
     
     # Define yourself in 4-5 words
-    motto: me defino como perseverante
+    motto: Me define la perseverancia
     
     # focus
-    focus: reinventarme
+    focus: Reinventarme
     
     # You have 1 paragraph to make a great impression, summarize your career.
     summary: |
-     Soy Arquitecta y actualmente estudiante de Programacion, busco empezar mi carrera aportando conocimientos académicos de programación (Java, Javascript, HTML5). Mi capacidad de generar ideas y mi facilidad para trabajar en equipo son mis principales herramientas para trabajar.
+      Graduada de Arquitecta, actualmente estudiante de programacion. 
     
     # Your profile picture URL
     # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
-    avatar: https://www.facebook.com/photo/?fbid=10224641424765685&set=a.1624431933322
+    avatar: https://m.facebook.com/photo.php/?fbid=10224641424765685
+
     # Contact Information
-    email: lumartins311@gmail.com
-    phone: 098143700
+    email: lumartins311@gmail.com #optional
+    phone: 098143700 #optional
+    website: asd.com #optional
     linkedin: Lucia Martins Rodriguez #optional
     
     #
@@ -40,73 +42,60 @@ basic_info:
 
     # languages you speak, levels inculde: Native, Professional
     languages:
+      - idiom: Spanish
+        level: Native
+
       - idiom: English
         level: Medium
 
       - idiom: Portugues
-        level: Básico
-
-      - idiom: Spanish
-        level: Nativo
+        level: Basic
 
     # Interests or hobies
     interests:
       - item: Leer
 
-     
+      - item: 
+
+      - item: 
 
 # Your previous education
 education:
     - degree: Arquitecta
-      university: Universidad de la República
+      university: Universidad de la Republica
       # optional
-      university_logo: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.topuniversities.com%2Funiversities%2Funiversidad-de-la-republica-udelar&psig=AOvVaw3Pu__qrQFSIyRzyttpa7H4&ust=1690570006108000&source=images&cd=vfe&opi=89978449&ved=0CA0QjRxqFwoTCIjNzJnGr4ADFQAAAAAdAAAAABAD
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZItN7Rq1PyxVn1eeGX3LX_tE6PMEQ1Q7U1BWSSkk&s
       time: 2006 - 2018
-      details: Titulo de Arquitecto y urbanista
-        
+      details: |
+        Arquitecto y urbanista
 
     - degree: Auxiliar Administrativo Contable
       university: Escuela Superior de Comercio La Blanqueada
       # optional
-      university_logo: https://utulablanqueada.utu.edu.uy/wp-content/uploads/sites/18/2023/03/cropped-logo-ISCAB.png
-      time: 2007 - 2011
+      university_logo: 
+      time: 2009 - 2010
       details: |
-       
+        
 
 # Your previous job experiences or voluntier
 experiences:
-    - role: Operador Telefonico
-      time: 2012 - 2015
-      company: Banco de Prevision Social
+    - role: Operador telefónico
+      time: 2011 - 2015
+      company: BPS
       # optional
       company_logo: https://d2v9ipibika81v.cloudfront.net/uploads/sites/113/BPS-Logo-e1541078254656.jpg
       details: |
-       Operador de la central telefonica del Bps, teleconcultas. Atencion a usuarios evacuando consultas
+        Operario teleconsultas BPS, evacuación de consultas
 
     - role: Administrativo
       time: 2015 - actualidad
       company: Poder Judicial
       # optional
-      company_logo: https://www.poderjudicial.gub.uy/templates/g5_helium/custom/images/header/header_350x90.png
-      details: 
+      company_logo: https://www.poderjudicial.gub.uy/images/imagenes/Grafica_institucional/logo_Poder_Judicial_vertical_rgb.png
+      details: |
         Tareas administrativas varias
 
-          -
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      # optional
-      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
 
 # Your project portfolio
 projects:
@@ -149,19 +138,19 @@ projects:
 skills:
     toolset:
       - name: Python & Django
-        level: 98%
+        level: 0%
 
       - name: Javascript & jQuery
-        level: 98%
+        level: 0%
 
       - name: Angular
-        level: 98%
+        level: 0%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 2%
 
       - name: Ruby on Rails
-        level: 85%
+        level: 0%
 
       - name: Sketch & Photoshop
-        level: 60%
+        level: 50%
